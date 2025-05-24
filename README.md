@@ -31,13 +31,28 @@ A simple and elegant URL shortener with a unified front-end and multiple interch
 
 ## 🚀 Running the Project
 
-### Frontend
+### 🐍 Running the Python Backend (Flask)
 
-No build required. Open `frontend/index.html` in your browser or serve it using any static file server.
+1. **Install Flask** (if not already installed):
 
-### Backend (Example: Python)
+    ```bash
+    pip3 install flask
+    ```
 
-```bash
-cd python
-pip install flask
-python server.py
+2. **Run the Flask server:**
+
+    From the project root directory, run:
+
+    ```bash
+    python3 python/server.py
+    ```
+
+3. **Access the app:**
+
+    Open your browser and go to:
+
+    ```
+    http://127.0.0.1:5000/
+    ```
+
+    This will serve the frontend `index.html` through the Flask backend.
